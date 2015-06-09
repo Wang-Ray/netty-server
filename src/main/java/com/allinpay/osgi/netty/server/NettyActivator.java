@@ -34,7 +34,7 @@ public class NettyActivator implements BundleActivator {
 					}
 				});
 		// 绑定端口，同步等待成功
-		serverBootstrap.bind(8081).sync();
+		serverBootstrap.bind(8087).sync();
 	}
 
 	public void stop(BundleContext bundleContext) throws Exception {
