@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="com.allinpay.osgi.netty.server.SingleConfigurator">
+	<property name="service.pid" value="com.allinpay.osgi.netty.server.SingleConfigurator"/>
+	<implementation class="com.allinpay.osgi.netty.server.SingleConfigurator"/>
+	<service>
+		<provide interface="org.osgi.service.cm.ManagedService"/>
+	</service>
+</component>
